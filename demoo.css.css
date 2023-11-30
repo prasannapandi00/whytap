@@ -1,0 +1,41 @@
+*{margin: 0%;
+padding: 0%;}
+
+
+nav{background-color:black;
+    color: aqua;
+    padding: 20px;
+}
+
+li,h1,ul{
+    display: inline;
+}
+li:hover{
+    color: brown;
+    cursor: pointer;
+}
+ul{
+    margin-left: 65%
+}
+
+.two{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+}
+.two{
+    margin: 50px;
+    text-align: center;
+}
+input{
+    width: 70%;
+    padding: 15px;
+}
+
+.onee{
+    padding: 3%;
+    margin-left: 10%;
+    text-align: center;
+}

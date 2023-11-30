@@ -1,0 +1,391 @@
+body{
+    background: linear-gradient(to left, rgb(34, 15, 117), rgb(8, 8, 15));
+}
+div{
+    color: aliceblue;
+}
+ul,li,nav{
+    display: flex;
+    margin-right: 5px;
+    font-size: 17px;
+}
+.ul{
+    font-weight: bold;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+li:hover{
+    transform: scale(1.5);
+    color: rgb(255, 251, 0);
+    cursor: pointer;
+    margin-left: 30px;
+}
+.enroll{
+    border-radius: 15%;
+    padding: 20px;
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 170px;
+    background-color: yellow;
+    color: rgb(8, 7, 0);
+}
+.h1{ width: 80px; height: 70px;
+    display:flex;
+    margin-left: 30px;
+}
+
+.award{ width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+.a1{display: flex;
+    margin-left: 40px;
+}
+.a2{display: flex;
+    margin-left: 40px;
+    color: yellow;
+}
+.photo{
+    justify-items: end;
+    height: 70px;
+    width: 100px;
+    margin-left: 37%;
+}
+.a3{
+    margin-left: 30px;
+    border-radius: 18px;
+    color: black;
+    width: 40%;
+    display: flex;
+    background: linear-gradient(to top , rgb(170, 165, 165),rgb(238, 231, 231));
+}
+.a4{
+    margin-left: 40px;
+    font-size: large;
+}
+.a5{margin-left: 40px;}
+
+.a6{
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: 40px;
+
+}
+.a7{
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.a7:hover{
+    transition-duration: 2s;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.a6:hover{
+    transition-duration: 2s;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: aqua;
+}
+.a8{
+    border-radius: 4px;
+    background-color: rgb(192, 190, 186);
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 25px;
+
+}
+.s1{
+    color:rgb(10, 4, 4);
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 2%;
+    border-radius: 10px;
+   text-align: center;
+   height: 100px;
+}
+.p1{
+    
+    font-weight:bolder;
+    font-size: xx-large;
+}
+.a9{
+    display:flex ;
+    margin-left: 3%;
+    color: aliceblue;
+}
+.a99{
+    
+    background-color: transparent;
+    background-image: linear-gradient( yellow,red);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.a10,.a11{
+    border-radius: 4%;
+    display: flex;
+    margin-top: 20px;
+    color: black;
+
+}
+.sec1{
+   display: flex;
+}
+
+.s2,.s3{
+    width: 20%;
+    height: 2%;
+    text-align: center;
+    color: rgb(7, 0, 0);
+    background-color: rgb(248, 243, 243);
+    border-radius: 4%;
+    margin-left: 5%;
+    padding:  40px;
+}
+
+.sec2{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 70px;
+}
+.f{
+   padding: 18px;
+   margin: 1%;
+   width: 220px;
+}
+.a12{
+   background-color: transparent;
+   background:linear-gradient(to bottom ,rgb(187, 4, 89),rgb(9, 9, 117));
+    width: 280px;
+    padding: 20px;
+    border-radius: 3%;
+}
+.fb{
+   margin-left: 45px;
+   padding: 15px;
+   width: 200px;
+}
+.fb:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transform:scale(1.5);
+}
+.sec3{
+    margin-top: 100px;
+    background-color: white;
+    padding: 4%;
+    padding-top: 0%;
+}
+.s4{
+    font-size: xx-large;
+    text-align: center;
+}       
+.p4{
+    font-size: bold ;
+    color: grey;
+}
+.sec4{
+    background-color: transparent;
+    background: linear-gradient(to bottom,rgb(197, 193, 193),rgb(82, 81, 81));
+    height: 800px;
+}
+.s5{
+    text-align: center;
+}
+.p5{
+    color: rgb(133, 128, 128);
+    font-size: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.s6{
+    margin-left: 4%;
+}
+.a14{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 30px;
+}
+.bot6{
+    display: inline-flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: medium;
+    padding: 7px;
+    width: 90%;
+    height: 50px;
+    color: black;
+    margin: 1%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-color: rgb(228, 225, 225);
+    align-items: center;
+
+}    
+.bot6:hover{
+    cursor: pointer;
+   background-color: rgb(141, 2, 2);
+   color: white;
+}
+.a15{
+    background-color: white;
+   
+}
+.s7{
+    color: black;
+    text-align: center;
+}
+.corse{
+    width: 800px;
+    height: 450px;
+}
+.sec6{
+    background-color: white;
+}
+.S7{
+    text-align: center;
+}
+
+.a16{
+    display: flex;
+}
+.p6{
+    color: black;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+.info{
+    margin-left: 20px;
+   padding-top: 30px;
+   width: 400px;
+   margin: 10px;
+}
+
+.s8{
+    text-align: center;
+    color: aliceblue;
+}
+.a17{
+  display: flex;
+  justify-content: center;
+}
+.sec8{
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgb(202, 202, 191),rgb(15, 12, 12));
+    color: transparent;
+    height: 500px;
+}
+.s9{
+    color: black;
+}
+.p8{
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.join{
+    display: flex;
+}
+.a18{
+    margin: 5%;
+    margin-top: 10%;
+}
+.a19 img{
+    margin-left: 10%;
+   width: 530PX;
+   height: 350px;
+   margin-top: 30px;
+   box-shadow: 10px;
+}
+
+.name{
+    text-align: center;
+    margin-top: 12px;
+    background-color: rgb(56, 44, 44);
+    padding: 10px;
+    width: 650px;
+    color: rgb(173, 170, 170);
+}
+.sec9{
+    padding-top: 3%;
+    background-color: white;
+    height: 1100px;
+}
+.s10{
+    text-align: center;
+}
+.a20{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 30px;
+}
+.bot8{
+    display: inline-flex;
+    justify-content: space-between;
+    font-weight: lighter;
+    font-size: medium;
+    padding: 7px;
+    width: 90%;
+    height: 70px;
+    color: black;
+    margin: 1%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-color: rgb(228, 225, 225);
+    align-items: center;
+}    
+.bot8:hover{
+    cursor: pointer;
+   color: rgb(91, 3, 253);
+
+}
+.a21{
+    background-color: transparent;
+    color:transparent;
+    background-image: linear-gradient(to bottom,black,rgb(4, 4, 65));
+    padding: 2%;
+    margin-left: 16%;
+    margin-right: 16%;
+    border-radius: 3%;
+}
+.s11{
+    color: white;
+    text-align: center;
+}
+.s12{
+    color: yellow;
+    text-align: center;
+}
+.Enroll{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5%;
+    background-color: yellow;
+    width: 200px;
+    padding: 20px;
+    margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
